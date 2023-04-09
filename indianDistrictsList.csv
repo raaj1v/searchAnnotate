@@ -1,0 +1,721 @@
+﻿States,Districts,Talukas
+Andhra Pradesh,Nicobar,Devgad
+Arunachal Pradesh,North and Middle Andaman,Malwan
+Assam,South Andaman,Sawantwadi
+Bihar,Anantapur,Kudal
+Chhattisgarh,Chittoor,Vengurla
+Goa,East Godavari,Dodamarg
+Gujarat,Guntur,Sangameshwar
+Haryana,Kadapa,Lanja
+Himachal Pradesh,Krishna,Rajapur
+Jammu and Kashmir,Kurnool,Chiplun
+Jharkhand,Prakasam,Guhagar
+Karnataka,Sri Potti Sriramulu Nellore,Dapoli
+Kerala,Srikakulam,Mandangad
+Madhya Pradesh,Visakhapatnam,Khed
+Maharashtra,Vizianagaram,Alibaug
+Manipur,West Godavari,Murud
+Meghalaya,Anjaw,Panvel
+Mizoram,Changlang,Uran
+Nagaland,East Kameng,Karjat
+Odisha,East Siang,Khalapur
+Punjab,Kamle,Mangaon
+Rajasthan,Kra Daadi,Tala
+Sikkim,Kurung Kumey,Roha
+Tamil Nadu,Lohit,Sudhagad
+Tripura,Longding,Mahad
+Uttar Pradesh,Lower Dibang Valley,Poladpur
+Uttarakhand,Lower Siang,Shrivardhan
+West Bengal,Lower Subansiri,Mhasla
+Telangana,Namsai,Andheri
+Andaman and Nicobar,Papum Pare,Borivali
+Chandigarh,Siang,Kalyan
+Dadra and Nagar Haveli,Tawang,Murbad 
+Daman and Diu,Tirap,Bhiwandi
+Lakshadweep,Upper Dibang Valley,Shahapur
+NCT Delhi,Upper Siang,Ulhasnagar
+Puducherry,Upper Subansiri,Ambarnath
+,West Kameng,Vasai 
+,West Siang,Dahanu
+,Baksa,Talasari
+,Barpeta,Jawhar
+,Bishwanath,Mokhada
+,Bongaigaon,Vada
+,Cachar,Vikramgad
+,Charaideo,Igatpuri
+,Chirang,Dindori 
+,Darrang,Peth
+,Dhemaji,Trimbakeshwar
+,Dhubri,Kalwan
+,Dibrugarh,Deola
+,Dima Hasao,Surgana
+,Goalpara,Baglan
+,Golaghat,Malegaon
+,Hailakandi,Nandgaon
+,Hojai,Chandwad
+,Jorhat,Niphad
+,Kamrup,Sinnar 
+,Kamrup Metropolitan,Yeola
+,Karbi Anglong,Navapur
+,Karimganj,Shahada
+,Kokrajhar,Talode
+,Lakhimpur,Akkalkuwa
+,Majuli,Akrani
+,Morigaon,Sakri 
+,Nagaon,Sindkheda
+,Nalbari,Shirpur
+,Sivasagar,Jamner
+,South Salmara-Mankachar,Erandol
+,Sonitpur,Dharangaon
+,Tinsukia,Bhusawal
+,Udalguri,Raver
+,West Karbi Anglong,Muktainagar
+,Araria,Bodwad
+,Arwal,Yawal
+,Aurangabad,Amalner
+,Banka,Parola
+,Begusarai,Chopda
+,Bhagalpur,Pachora
+,Bhojpur,Bhadgaon
+,Buxar,Chalisgaon
+,Darbhanga,Chikhli
+,East Champaran,Deulgaon Raja
+,Gaya,Jalgaon Jamod
+,Gopalganj,Sangrampur
+,Jamui,Malkapur
+,Jehanabad,Motala
+,Kaimur,Nandura 
+,Katihar,Khamgaon
+,Khagaria,Shegaon
+,Kishanganj,Mehkar
+,Lakhisarai,Sindkhed Raja
+,Madhepura,Lonar
+,Madhubani,Akot
+,Munger,Telhara
+,Muzaffarpur,Balapur
+,Nalanda,Patur 
+,Nawada,Murtajapur
+,Patna,Barshitakli 
+,Purnia,Malegaon
+,Rohtas,Risod
+,Saharsa,Mangrulpir
+,Samastipur,Karanja
+,Saran,Manora 
+,Sheikhpura,Bhatukali
+,Sheohar,Nandgaon Khandeshwar
+,Sitamarhi,Dharni
+,Siwan,Chikhaldara
+,Supaul,Achalpur
+,Vaishali,Chandurbazar
+,West Champaran,Morshi
+,Chandigarh,Warud
+,Balod,Daryapur
+,Baloda Bazar,Anjangaon-Surji 
+,Balrampur,Chandur
+,Bastar,Dhamangaon
+,Bemetara,Tiosa
+,Bijapur,Deoli
+,Bilaspur,Seloo 
+,Dantewada,Arvi
+,Dhamtari,Ashti 
+,Durg,Karanja
+,Gariaband,Hinganghat
+,Janjgir-Champa,Samudrapur
+,Jashpur,Nagpur
+,Kabirdham (formerly Kawardha),Kamptee
+,Kanker,Hingna
+,Kondagaon,Katol
+,Korba,Narkhed
+,Koriya,Savner
+,Mahasamund,Kalameshwar 
+,Mungeli,Ramtek
+,Narayanpur,Mouda
+,Raigarh,Parseoni 
+,Raipur,Umred
+,Rajnandgaon,Kuhi 
+,Sukma,Bhiwapur 
+,Surajpur,Tumsar
+,Surguja,Pauni
+,Dadra and Nagar Haveli,Mohadi
+,Daman,Sakoli
+,Diu,Lakhni
+,Central Delhi,Lakhandur 
+,East Delhi,Tirora
+,New Delhi,Goregaon 
+,North Delhi,Arjuni Morgaon 
+,North East Delhi,Amgaon
+,North West Delhi,Salekasa
+,Shahdara,Sadak Arjuni 
+,South Delhi,Deori
+,South East Delhi,Dhanora
+,South West Delhi,Chamorshi 
+,West Delhi,Mulchera
+,North Goa,Desaiganj
+,South Goa,Armori
+,Ahmedabad,Kurkheda
+,Amreli,Korchi
+,Anand,Aheri
+,Aravalli,Bhamragad
+,Banaskantha,Sironcha
+,Bharuch,Saoli
+,Bhavnagar,Mul
+,Botad,Ballarpur 
+,Chhota Udaipur,Pombhurna
+,Dahod,Gondpimpri
+,Dang,Warora 
+,Devbhoomi Dwarka,Chimur
+,Gandhinagar,Bhadravati
+,Gir Somnath,Bramhapuri
+,Jamnagar,Nagbhid
+,Junagadh,Sindewahi
+,Kheda,Rajura
+,Kutch,Korpana
+,Mahisagar,Jivati
+,Mehsana,Arni
+,Morbi,Babhulgaon
+,Narmada,Kalamb
+,Navsari,Darwha
+,Panchmahal,Digras
+,Patan,Ner
+,Porbandar,Pusad
+,Rajkot,Umarkhed
+,Sabarkantha,Mahagaon
+,Surat,Kelapur
+,Surendranagar,Ralegaon 
+,Tapi,Ghatanji
+,Vadodara,Wani
+,Valsad,Maregaon
+,Ambala,Zari Jamani
+,Bhiwani,Ardhapur
+,Charkhi Dadri,Mudkhed
+,Faridabad,Bhokar 
+,Fatehabad,Umri
+,Gurgaon,Loha
+,Hissar,Kandhar
+,Jhajjar,Kinwat
+,Jind,Himayatnagar
+,Kaithal,Hadgaon
+,Karnal,Mahur
+,Kurukshetra,Deglur 
+,Mahendragarh,Mukhed 
+,Nuh,Dharmabad
+,Palwal,Biloli
+,Panchkula,Naigaon 
+,Panipat,Sengaon
+,Rewari,Kalamnuri
+,Rohtak,Basmath
+,Sirsa,Aundha Nagnath
+,Sonipat,Sonpeth
+,Yamuna Nagar,Gangakhed
+,Bilaspur,Palam
+,Chamba,Purna 
+,Hamirpur,Sailu 
+,Kangra,Jintur
+,Kinnaur,Manwath
+,Kullu,Pathri 
+,Lahaul and Spiti,Bhokardan
+,Mandi,Jafrabad 
+,Shimla,Badnapur
+,Sirmaur,Ambad
+,Solan,Ghansawangi
+,Una,Partur
+,Anantnag,Mantha 
+,Bandipora,Kannad
+,Baramulla,Soegaon
+,Badgam,Sillod
+,Doda,Phulambri
+,Ganderbal,Khuldabad 
+,Jammu,Vaijapur 
+,Kargil,Gangapur
+,Kathua,Paithan
+,Kishtwar,Ashti 
+,Kulgam,Patoda
+,Kupwara,Shirur-Kasar
+,Leh,Georai 
+,Poonch,Majalgaon 
+,Pulwama,Wadwani
+,Rajouri,Kaij 
+,Ramban,Dharur
+,Reasi,Parli
+,Samba,Ambejogai
+,Shopian,Renapur
+,Srinagar,Ahmadpur
+,Udhampur,Jalkot
+,Bokaro,Chakur
+,Chatra,Shirur Anantpal 
+,Deoghar,Ausa
+,Dhanbad,Nilanga
+,Dumka,Deoni
+,East Singhbhum,Udgir 
+,Garhwa,Tuljapur 
+,Giridih,Bhum
+,Godda,Paranda 
+,Gumla,Washi
+,Hazaribag,Kalamb
+,Jamtara,Lohara
+,Khunti,Umarga
+,Koderma,Barshi
+,Latehar,Solapur South
+,Lohardaga,Akkalkot 
+,Pakur,Madha
+,Palamu,Karmala 
+,Ramgarh,Pandharpur
+,Ranchi,Mohol
+,Sahibganj,Malshiras
+,Seraikela Kharsawan,Sangole
+,Simdega,Mangalvedhe 
+,West Singhbhum,Shevgaon 
+,Bagalkot,Pathardi
+,Ballari,Parner
+,Belagavi,Sangamner
+,Bengaluru Rural,Kopargaon
+,Bengaluru Urban,Akole
+,Bidar,Shrirampur
+,Chamarajnagar,Nevasa 
+,Chikkaballapur,Rahata
+,Chikkamagaluru,Rahuri
+,Chitradurga,Shrigonda
+,Dakshina Kannada,Karjat 
+,Davanagere,Jamkhed
+,Dharwad,Haveli 
+,Gadag,Khed 
+,Hassan,Junnar
+,Haveri,Ambegaon 
+,Kalaburagi,Maval 
+,Kodagu,Mulshi 
+,Kolar,Shirur
+,Koppal,Purandhar 
+,Mandya,Velhe 
+,Mysuru,Bhor
+,Raichur,Baramati
+,Ramanagara,Indapur
+,Shivamogga,Daund
+,Tumakuru,Jaoli 
+,Udupi,Koregaon
+,Uttara Kannada,Wai
+,Vijayapura,Mahabaleshwar
+,Yadgir,Khandala
+,Alappuzha,Phaltan
+,Ernakulam,Maan 
+,Idukki,Khatav 
+,Kannur,Patan
+,Kasaragod,Karad 
+,Kollam,Kavathe-Mahankal 
+,Kottayam,Tasgaon 
+,Kozhikode,Jat 
+,Malappuram,Walwa 
+,Palakkad,Shirala 
+,Pathanamthitta,Khanapur-Vita
+,Thrissur,Atpadi 
+,Thiruvananthapuram,Palus
+,Wayanad,Kadegaon
+,Lakshadweep,Panhala 
+,Agar Malwa,Shahuwadi 
+,Alirajpur,Kagal
+,Anuppur,Hatkanangale
+,Ashok Nagar,Shirol
+,Balaghat,Radhanagari
+,Barwani,Gaganbawada
+,Betul,Bhudargad 
+,Bhind,Gadhinglaj 
+,Bhopal,Chandgad 
+,Burhanpur,Ajra 
+,Chhatarpur,Nagar 
+,Chhindwara,Akola
+,Damoh,Amravati 
+,Datia,Aurangabad
+,Dewas,Beed 
+,Dhar,Bhandara
+,Dindori,Buldhana
+,Guna,Chandrapur
+,Gwalior,Dhule
+,Harda,Gadchiroli
+,Hoshangabad,Gondia 
+,Indore,Hingoli 
+,Jabalpur,Jalgaon
+,Jhabua,Jalna 
+,Katni,Karvir
+,Khandwa (East Nimar),Latur
+,Khargone (West Nimar),Kurla 
+,Mandla,Nagpur
+,Mandsaur,Nanded
+,Morena,Nandurbar
+,Narsinghpur,Nashik
+,Neemuch,Osmanabad 
+,Panna,Palghar
+,Raisen,Parbhani
+,Rajgarh,Pune City
+,Ratlam,Ratnagiri
+,Rewa,Miraj 
+,Sagar,Satara
+,Satna,Kankavli
+,Sehore,Solapur North
+,Seoni,Thane
+,Shahdol,Wardha
+,Shajapur,Washim
+,Sheopur,Yavatmal
+,Shivpuri,
+,Sidhi,
+,Singrauli,
+,Tikamgarh,
+,Ujjain,
+,Umaria,
+,Vidisha,
+,Ahmednagar,
+,Akola,
+,Amravati,
+,Aurangabad,
+,Beed,
+,Bhandara,
+,Buldhana,
+,Chandrapur,
+,Dhule,
+,Gadchiroli,
+,Gondia,
+,Hingoli,
+,Jalgaon,
+,Jalna,
+,Kolhapur,
+,Latur,
+,Mumbai,
+,Mumbai City,
+,Mumbai suburban,
+,Nanded,
+,Nandurbar,
+,Nagpur,
+,Nashik,
+,Osmanabad,
+,Palghar,
+,Parbhani,
+,Pune,
+,Raigad,
+,Ratnagiri,
+,Sangli,
+,Satara,
+,Sindhudurg,
+,Solapur,
+,Thane,
+,Wardha,
+,Washim,
+,Yavatmal,
+,Bishnupur,
+,Thoubal,
+,Imphal East,
+,Imphal West,
+,Senapati,
+,Ukhrul,
+,Chandel,
+,Churachandpur,
+,Tamenglong,
+,Jiribam,
+,Kangpokpi (Sadar Hills),
+,Kakching,
+,Tengnoupal,
+,Kamjong,
+,Noney,
+,Pherzawl,
+,East Garo Hills,
+,East Khasi Hills,
+,East Jaintia Hills,
+,North Garo Hills,
+,Ri Bhoi,
+,South Garo Hills,
+,South West Garo Hills,
+,South West Khasi Hills,
+,West Jaintia Hills,
+,West Garo Hills,
+,West Khasi Hills,
+,Aizawl,
+,Champhai,
+,Kolasib,
+,Lawngtlai,
+,Lunglei,
+,Mamit,
+,Saiha,
+,Serchhip,
+,Dimapur,
+,Kiphire,
+,Kohima,
+,Longleng,
+,Mokokchung,
+,Mon,
+,Peren,
+,Phek,
+,Tuensang,
+,Wokha,
+,Zunheboto,
+,Angul,
+,Boudh (Bauda),
+,Bhadrak,
+,Balangir,
+,Bargarh (Baragarh),
+,Balasore,
+,Cuttack,
+,Debagarh (Deogarh),
+,Dhenkanal,
+,Ganjam,
+,Gajapati,
+,Jharsuguda,
+,Jajpur,
+,Jagatsinghpur,
+,Khordha,
+,Kendujhar (Keonjhar),
+,Kalahandi,
+,Kandhamal,
+,Koraput,
+,Kendrapara,
+,Malkangiri,
+,Mayurbhanj,
+,Nabarangpur,
+,Nuapada,
+,Nayagarh,
+,Puri,
+,Rayagada,
+,Sambalpur,
+,Subarnapur (Sonepur),
+,Sundargarh,
+,Karaikal,
+,Mahe,
+,Pondicherry,
+,Yanam,
+,Amritsar,
+,Barnala,
+,Bathinda,
+,Firozpur,
+,Faridkot,
+,Fatehgarh Sahib,
+,Fazilka,
+,Gurdaspur,
+,Hoshiarpur,
+,Jalandhar,
+,Kapurthala,
+,Ludhiana,
+,Mansa,
+,Moga,
+,Sri Muktsar Sahib,
+,Pathankot,
+,Patiala,
+,Rupnagar,
+,Sahibzada Ajit Singh Nagar,
+,Sangrur,
+,Shahid Bhagat Singh Nagar,
+,Tarn Taran,
+,Ajmer,
+,Alwar,
+,Bikaner,
+,Barmer,
+,Banswara,
+,Bharatpur,
+,Baran,
+,Bundi,
+,Bhilwara,
+,Churu,
+,Chittorgarh,
+,Dausa,
+,Dholpur,
+,Dungarpur,
+,Ganganagar,
+,Hanumangarh,
+,Jhunjhunu,
+,Jalore,
+,Jodhpur,
+,Jaipur,
+,Jaisalmer,
+,Jhalawar,
+,Karauli,
+,Kota,
+,Nagaur,
+,Pali,
+,Pratapgarh,
+,Rajsamand,
+,Sikar,
+,Sawai Madhopur,
+,Sirohi,
+,Tonk,
+,Udaipur,
+,East Sikkim,
+,North Sikkim,
+,South Sikkim,
+,West Sikkim,
+,Ariyalur,
+,Chennai,
+,Coimbatore,
+,Cuddalore,
+,Dharmapuri,
+,Dindigul,
+,Erode,
+,Kanchipuram,
+,Kanyakumari,
+,Karur,
+,Krishnagiri,
+,Madurai,
+,Nagapattinam,
+,Nilgiris,
+,Namakkal,
+,Perambalur,
+,Pudukkottai,
+,Ramanathapuram,
+,Salem,
+,Sivaganga,
+,Tirupur,
+,Tiruchirappalli,
+,Theni,
+,Tirunelveli,
+,Thanjavur,
+,Thoothukudi,
+,Tiruvallur,
+,Tiruvarur,
+,Tiruvannamalai,
+,Vellore,
+,Viluppuram,
+,Virudhunagar,
+,Adilabad,
+,Komaram Bheem Asifabad,
+,Bhadradri Kothagudem,
+,Hyderabad,
+,Jagtial,
+,Jangaon,
+,Jayashankar Bhupalpally,
+,Jogulamba Gadwal,
+,Kamareddy,
+,Karimnagar,
+,Khammam,
+,Mahabubabad,
+,Mahbubnagar,
+,Mancherial,
+,Medak,
+,Medchal,
+,Nalgonda,
+,Nagarkurnool,
+,Nirmal,
+,Nizamabad,
+,Peddapalli,
+,Rajanna Sircilla,
+,Ranga Reddy,
+,Sangareddy,
+,Siddipet,
+,Suryapet,
+,Vikarabad,
+,Wanaparthy,
+,Warangal (urban),
+,Warangal (rural),
+,Yadadri Bhuvanagiri,
+,Dhalai,
+,Gomati,
+,Khowai,
+,North Tripura,
+,Sepahijala,
+,South Tripura,
+,Unokoti,
+,West Tripura,
+,Agra,
+,Aligarh,
+,Allahabad,
+,Ambedkar Nagar,
+,Amethi (Chhatrapati Shahuji Maharaj Nagar),
+,Amroha (Jyotiba Phule Nagar),
+,Auraiya,
+,Azamgarh,
+,Bagpat,
+,Bahraich,
+,Ballia,
+,Balrampur,
+,Banda,
+,Barabanki,
+,Bareilly,
+,Basti,
+,Bijnor,
+,Budaun,
+,Bulandshahr,
+,Chandauli,
+,Chitrakoot,
+,Deoria,
+,Etah,
+,Etawah,
+,Faizabad,
+,Farrukhabad,
+,Fatehpur,
+,Firozabad,
+,Gautam Buddh Nagar,
+,Ghaziabad,
+,Ghazipur,
+,Gonda,
+,Gorakhpur,
+,Hamirpur,
+,Hapur (Panchsheel Nagar),
+,Hardoi,
+,Hathras (Mahamaya Nagar),
+,Jalaun,
+,Jaunpur,
+,Jhansi,
+,Kannauj,
+,Kanpur Dehat (Ramabai Nagar),
+,Kanpur Nagar,
+,Kasganj (Kanshi Ram Nagar),
+,Kaushambi,
+,Kushinagar,
+,Lakhimpur Kheri,
+,Lalitpur,
+,Lucknow,
+,Maharajganj,
+,Mahoba,
+,Mainpuri,
+,Mathura,
+,Mau,
+,Meerut,
+,Mirzapur,
+,Moradabad,
+,Muzaffarnagar,
+,Pilibhit,
+,Pratapgarh,
+,Raebareli,
+,Rampur,
+,Saharanpur,
+,Sambhal (Bheem Nagar),
+,Sant Kabir Nagar,
+,Bhadohi,
+,Shahjahanpur,
+,Shamli,
+,Shravasti,
+,Siddharthnagar,
+,Sitapur,
+,Sonbhadra,
+,Sultanpur,
+,Unnao,
+,Varanasi,
+,Almora,
+,Bageshwar,
+,Chamoli,
+,Champawat,
+,Dehradun,
+,Haridwar,
+,Nainital,
+,Pauri Garhwal,
+,Pithoragarh,
+,Rudraprayag,
+,Tehri Garhwal,
+,Udham Singh Nagar,
+,Uttarkashi,
+,Alipurduar,
+,Bankura,
+,Paschim Bardhaman,
+,Purba Bardhaman,
+,Birbhum,
+,Cooch Behar,
+,Dakshin Dinajpur,
+,Darjeeling,
+,Hooghly,
+,Howrah,
+,Jalpaiguri,
+,Jhargram,
+,Kalimpong,
+,Kolkata,
+,Maldah,
+,Murshidabad,
+,Nadia,
+,North 24 Parganas,
+,Paschim Medinipur,
+,Purba Medinipur,
+,Purulia,
+,South 24 Parganas,
+,Uttar Dinajpur,
