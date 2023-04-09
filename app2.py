@@ -5,7 +5,7 @@ import re
 
 # Load the data
 uom = pd.read_csv("uom.csv")
-location = pd.read_excel("indianDistrictsList.xls")
+location = pd.read_csv("indianDistrictsList.csv")
 prepositions = pd.read_csv("prepositions_updated.csv")['prepositions'].tolist()
 shortCodes = pd.read_csv("shortCodesProduct.csv")
 procurement = pd.read_csv("procurementTerms.csv")
