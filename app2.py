@@ -112,19 +112,32 @@ st.title("TEXT SEGMENTATION >>>>")
 # Get user input
 input_text = st.text_input("Enter the search phrase:")
 
-if st.button("Segments Matching"):
-    # Call the textSegmentation function and display the results
-    result = textSegmentation(input_text)
-    st.write("Units: ", result['units'])
-    st.write("Locations: ", result['locations'])
-    st.write("Procurement Terms: ", result['procurement Terms'])
+# if st.button("Segments Matching"):
+#     # Call the textSegmentation function and display the results
+#     result = textSegmentation(input_text)
+#     st.write("Units: ", result['units'])
+#     st.write("Locations: ", result['locations'])
+#     st.write("Procurement Terms: ", result['procurement Terms'])
 
-if st.button("Looking for Company Name?"):
-    # Call the match_company function and display the results
-    result = match_company(input_text)
-    st.write("Keyword Matches: ", result)
+# if st.button("Looking for Company Name?"):
+#     # Call the match_company function and display the results
+#     result = match_company(input_text)
+#     st.write("Keyword Matches: ", result)
 
-if st.button("Get Product Names"):
-    # Call the search_keywords function and display the results
-    result = search_keywords(input_text)
-    st.write("Keyword Matches: ", result)
+# if st.button("Get Product Names"):
+#     # Call the search_keywords function and display the results
+#     result = search_keywords(input_text)
+#     st.write("Keyword Matches: ", result)
+    
+if st.button("Get Results"):
+    # Call all three functions and display the results
+    segmentation_result = textSegmentation(input_text)
+    company_result = match_company(input_text)
+    product_result = search_keywords(input_text)
+
+    st.write("Units: ", segmentation_result['units'])
+    st.write("Locations: ", segmentation_result['locations'])
+    st.write("Procurement Terms: ", segmentation_result['procurement Terms'])
+    st.write("Company Name Matches: ", company_result)
+    st.write("Product Name Matches: ", product_result)
+
