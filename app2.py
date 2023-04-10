@@ -161,8 +161,8 @@ if st.button("Get Results"):
     segmentation_result = textSegmentation(input_text)
     company_result = match_company(input_text)
 #     product_result = search_keywords(input_text)
-    output_text = drop_prepositions(input_text)
-    product_result = search_keywords(output_text)
+#     output_text = drop_prepositions(input_text)
+    product_result = search_keywords(input_text)
 
     st.write("Units: ", segmentation_result['units'])
     st.write("Locations: ", segmentation_result['locations'])
