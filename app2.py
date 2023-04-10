@@ -25,8 +25,8 @@ def textSegmentation(input_text):
     
     # extract locations from the cleaned text
     locations = set()
-    input_text = re.findall(r'[a-zA-Z]+', input_text)
-    for word in input_text.split():
+    input_text = re.findall(r'[a-zA-Z,]+', input_text)
+    for word in input_text:
         if any(location['Districts'].str.contains(fr"\b{word}\b", regex= True,case=False)):
             locations.add(word)
     result_dict['locations'] = locations
