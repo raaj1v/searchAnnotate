@@ -48,15 +48,15 @@ def textSegmentation(input_text):
 #     output_text = ' '.join(cleaned_words)
 #     return output_text
 
-def drop_prepositions(input_text):
-    words = input_text.split()
-    cleaned_words = []
-    for i in range(len(words)):
-        if words[i].lower() in prepositions:
-            break
-        cleaned_words.append(words[i])
-    output_text = ' '.join(cleaned_words)
-    return output_text
+# def drop_prepositions(input_text):
+#     words = input_text.split()
+#     cleaned_words = []
+#     for i in range(len(words)):
+#         if words[i].lower() in prepositions:
+#             break
+#         cleaned_words.append(words[i])
+#     output_text = ' '.join(cleaned_words)
+#     return output_text
 
 def match_company(input_text):
     input_words = re.findall(r'[a-zA-Z]+', input_text)
@@ -86,11 +86,18 @@ def match_company(input_text):
     # return keycodeids and corresponding phrases
     return keyword_matches
 
-def search_keywords(output_text):
+def search_keywords(input_text):
+    words = input_text.split()
+    cleaned_words = []
+    for i in range(len(words)):
+        if words[i].lower() in prepositions:
+            break
+        cleaned_words.append(words[i])
+    output_text = ' '.join(cleaned_words)
     # remove unwanted characters
-    input_text = re.findall(r'[a-zA-Z]+', input_text)
+    output_text = re.findall(r'[a-zA-Z]+', output_text)
     # remove stop words
-    filtered_words = [word for word in input_text if word.lower() not in stop_words]
+    filtered_words = [word for word in output_text if word.lower() not in stop_words]
     # initialize variables
     keyword_matches = []
     remaining_words = filtered_words
@@ -126,7 +133,6 @@ def search_keywords(output_text):
                     remaining_words.pop(0)
     # return keycodeids and corresponding phrases
     return keyword_matches
-
 # Streamlit UI
 st.title("TIGER AI")
 
