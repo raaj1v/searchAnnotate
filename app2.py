@@ -7,7 +7,7 @@ import re
 uom = pd.read_csv("uom.csv")
 location = pd.read_csv("indianLocationList.csv", encoding="ISO-8859-1")
 # prepositions = pd.read_csv("prepositions_updated.csv")['prepositions'].tolist()
-prepositions = pd.read_excel("Place_preposition_Product.xlsx")['Preposition'].tolist()
+prepositions = pd.read_csv("Place_preposition_Product.csv")['Preposition'].tolist()
 shortCodes = pd.read_csv("shortCodesProduct.csv")
 procurement = pd.read_csv("procurementTerms.csv")
 product_df = pd.read_csv("Updated_keywordProductSynonym2.csv", encoding = "Windows-1252")
