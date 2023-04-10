@@ -6,7 +6,8 @@ import re
 # Load the data
 uom = pd.read_csv("uom.csv")
 location = pd.read_csv("indianLocationList.csv", encoding="ISO-8859-1")
-prepositions = pd.read_csv("prepositions_updated.csv")['prepositions'].tolist()
+# prepositions = pd.read_csv("prepositions_updated.csv")['prepositions'].tolist()
+prepositions = pd.read_excel("Place_preposition_Product.xlsx")['Preposition'].tolist()
 shortCodes = pd.read_csv("shortCodesProduct.csv")
 procurement = pd.read_csv("procurementTerms.csv")
 product_df = pd.read_csv("Updated_keywordProductSynonym2.csv", encoding = "Windows-1252")
@@ -37,6 +38,16 @@ def textSegmentation(input_text):
     # return the dictionary of results
     return result_dict
 
+def drop_prepositions(input_text):
+    words = re.findall(r'[a-zA-Z]+', cleaned_text)
+    cleaned_words = []
+    for i in range(len(words)):
+        if words[i].lower() in prepositions:
+            break
+        cleaned_words.append(words[i])
+    output_text = ' '.join(cleaned_words)
+    return output_text
+
 def match_company(input_text):
     input_words = re.findall(r'[a-zA-Z]+', input_text)
     # initialize variables
@@ -65,7 +76,7 @@ def match_company(input_text):
     # return keycodeids and corresponding phrases
     return keyword_matches
 
-def search_keywords(input_text):
+def search_keywords(output_text):
     # remove unwanted characters
     input_text = re.findall(r'[a-zA-Z]+', input_text)
     # remove stop words
@@ -133,7 +144,9 @@ if st.button("Get Results"):
     # Call all three functions and display the results
     segmentation_result = textSegmentation(input_text)
     company_result = match_company(input_text)
-    product_result = search_keywords(input_text)
+#     product_result = search_keywords(input_text)
+    output_text = drop_prepositions(input_text)
+    product_result = search_keywords(output_text)
 
     st.write("Units: ", segmentation_result['units'])
     st.write("Locations: ", segmentation_result['locations'])
