@@ -60,7 +60,7 @@ def textSegmentation(input_text):
 #     return output_text
 
 def match_company(input_text):
-    input_words = re.findall(r'[a-zA-Z]+', input_text)
+    input_words = re.findall(r'[a-zA-Z,]+', input_text)
     # initialize variables
     keyword_matches = []
     remaining_words = input_words
