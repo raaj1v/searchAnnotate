@@ -107,7 +107,7 @@ def search_keywords(input_text):
     return keyword_matches
 
 # Streamlit UI
-st.title("TEXT SEGMENTATION >>>>")
+st.title("TIGER AI")
 
 # Get user input
 input_text = st.text_input("Enter the search phrase:")
