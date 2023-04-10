@@ -16,22 +16,23 @@ company_df = pd.read_csv("Copy of company_list_with_abbr.csv")
 stop_words = pd.read_csv("stop_words.csv")
 
 def textSegmentation(input_text):
+    input_text = re.findall(r'[a-zA-Z]+', input_text)
     result_dict={}
     units = set()
-    for word in input_text.split():
+    for word in input_text:
         if any(uom['units'].str.contains(fr"\b{word}\b", case=False, regex=True)):
             units.add(word)
     result_dict['units'] = units
     
     # extract locations from the cleaned text
     locations = set()
-    for word in input_text.split:
-        if any(location['Districts'].str.contains(fr"\b{word,}\b", regex= True,case=False)):
+    for word in input_text:
+        if any(location['Districts'].str.contains(fr"\b{word}\b", regex= True,case=False)):
             locations.add(word)
     result_dict['locations'] = locations
 
     procurementTerm = set()
-    for word in input_text.split():
+    for word in input_text:
         if any(procurement['ProcurementTerms'].str.contains(fr"\b{word}\b", regex=True, case=False)):
             procurementTerm.add(word)
     result_dict['procurement Terms'] = procurementTerm   
