@@ -38,8 +38,18 @@ def textSegmentation(input_text):
     # return the dictionary of results
     return result_dict
 
+# def drop_prepositions(input_text):
+#     words = re.findall(r'[a-zA-Z]+', cleaned_text)
+#     cleaned_words = []
+#     for i in range(len(words)):
+#         if words[i].lower() in prepositions:
+#             break
+#         cleaned_words.append(words[i])
+#     output_text = ' '.join(cleaned_words)
+#     return output_text
+
 def drop_prepositions(input_text):
-    words = re.findall(r'[a-zA-Z]+', cleaned_text)
+    words = input_text.split()
     cleaned_words = []
     for i in range(len(words)):
         if words[i].lower() in prepositions:
