@@ -16,10 +16,10 @@ stop_words = pd.read_csv("stop_words.csv")
 
 def textSegmentation(input_text):
     result_dict={}
-    units = []
+    units = set()
     for word in input_text.split():
-        if any(uom['units'].str.contains(fr"\b{word}\b", case=False)):
-            units.append(word)
+        if any(uom['units'].str.contains(fr"\b{word}\b", case=False, regex=True)):
+            units.add(word)
     result_dict['units'] = units
     
     # extract locations from the cleaned text
