@@ -96,6 +96,7 @@ def search_keywords(input_text):
         cleaned_words.append(words[i])
     output_text = ' '.join(cleaned_words)
     # remove unwanted characters
+    output_text = output_text.replace(",", " BRK").replace(".", " BRK")
     output_text = re.findall(r'[a-zA-Z]+', output_text)
     # remove stop words
     filtered_words = [word for word in output_text if word.lower() not in stop_words]
